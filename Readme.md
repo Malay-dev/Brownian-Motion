@@ -91,7 +91,7 @@ Generate multiple demonstration GIFs:
 python gif_generator.py
 ```
 
-## Demo GIFs
+<!-- ## Demo GIFs
 
 The following GIFs demonstrate different aspects of the Brownian motion simulation:
 
@@ -99,7 +99,7 @@ The following GIFs demonstrate different aspects of the Brownian motion simulati
 - `multiple_robots.gif`: Five robots showing emergent patterns
 - `no_trails.gif`: Three robots without trails
 - `long_trails.gif`: Two robots with long trails showing extensive movement patterns
-- `small_arena.gif`: Three robots in a smaller arena showing increased collision frequency
+- `small_arena.gif`: Three robots in a smaller arena showing increased collision frequency -->
 
 ## Implementation Details
 
