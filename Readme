@@ -1,6 +1,7 @@
 # Brownian Motion Robot Simulation
 
-This project implements a simulation of Brownian motion for robots, as specified in the GSoC application challenge. The simulation shows robots moving in a square arena exhibiting Brownian motion behavior.
+This project implements a simulation of Brownian motion for robots. The simulation shows robots moving in a square arena exhibiting Brownian motion behavior.
+![Simulation window](image.png)
 
 ## Features
 
@@ -23,6 +24,7 @@ This project implements a simulation of Brownian motion for robots, as specified
 
 1. Clone the repository
 2. Install dependencies:
+
 ```bash
 pip install numpy pygame
 pip install imageio  # optional, for GIF generation
@@ -46,6 +48,7 @@ python app.py
 ```
 
 Controls:
+
 - `T`: Toggle trail visibility
 - `R`: Add a new robot
 - `C`: Clear all trails
@@ -71,16 +74,19 @@ options:
 ### Examples
 
 Run a simulation with 3 robots and trails:
+
 ```bash
 python app.py --robots 3 --trails
 ```
 
 Record a GIF with 5 robots:
+
 ```bash
 python app.py --robots 5 --trails --record --output brownian_five_robots.gif
 ```
 
 Generate multiple demonstration GIFs:
+
 ```bash
 python gif_generator.py
 ```
@@ -98,6 +104,7 @@ The following GIFs demonstrate different aspects of the Brownian motion simulati
 ## Implementation Details
 
 The simulation follows the steps outlined in the challenge:
+
 1. Each robot is represented as a circle
 2. The simulation takes place in a square arena
 3. Robots start near the center and move straight initially
@@ -107,6 +114,7 @@ The simulation follows the steps outlined in the challenge:
 ## Robot Behavior
 
 The `Robot` class implements:
+
 - Forward motion along the current direction
 - Collision detection with arena boundaries
 - Random rotation after collision
